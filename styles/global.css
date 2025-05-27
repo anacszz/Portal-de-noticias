@@ -5,23 +5,23 @@
 }
 
 :root {
-  --brand-color-light: #60A5FA;
-  --brand-color-dark: #1D4ED8;
-  --bg-color: #0F172A;
-  --stroke-color: #1E293B;
-  --text-color-primary: #F1F5F9;
-  --text-color-seconday: #CDB5E1;
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+  --text-color-primary: #f1f5f9;
+  --text-color-seconday: #cdb5e1;
 
-  --font-family: 'archivo', sans-serif;
+  --font-family: "archivo", sans-serif;
   --h1: 800 24px/135% var(--font-family);
   --h2: 800 16px/140% var(--font-family);
   --h3: 800 14px/140% var(--font-family);
-  --text-span: 600 46px/145% var(--font-family);
+  --text-span: 600 16px/145% var(--font-family);
   --text: 400 16px/140% var(--font-family);
   --text-sm: 400 14px/160% var(--font-family);
 }
 
-body { 
+body {
   font: var(--text);
   color: var(--text-color-primary);
   background-color: var(--bg-color);
@@ -36,13 +36,14 @@ a:hover {
   color: var(--brand-color-light);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font: inherit; /*herdando cores do projeto*/
 }
 
 img {
   max-width: 100%;
-
 }
 
 .container {
@@ -56,12 +57,12 @@ main {
   row-gap: 80px;
   column-gap: 32px;
 
-  grid-template-columns: 2fr 1.5fr;
+  grid-template-columns: 2fr 1.4fr;
 
-  grid-template-areas: 
-  "featured featured"
-  "weekly weekly"
-  "ai aside";
+  grid-template-areas:
+    "featured featured"
+    "weekly weekly"
+    "ai aside";
 }
 
 .content-tag {
